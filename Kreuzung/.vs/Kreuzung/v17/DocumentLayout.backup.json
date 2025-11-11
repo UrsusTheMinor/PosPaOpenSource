@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|c:\\users\\reini\\source\\repos\\kreuzung\\kreuzung.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|solutionrelative:kreuzung.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|c:\\users\\reini\\source\\repos\\kreuzung\\kreuzung.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|solutionrelative:kreuzung.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|c:\\users\\reini\\source\\repos\\kreuzung\\kreuzung.wpf\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|solutionrelative:kreuzung.wpf\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|c:\\users\\reini\\source\\repos\\kreuzung\\kreuzung.wpf\\crossroads\\crossroad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|solutionrelative:kreuzung.wpf\\crossroads\\crossroad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|c:\\users\\reini\\source\\repos\\kreuzung\\kreuzung.wpf\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CFEB97-D137-42D1-87EB-549DD379949F}|Kreuzung.Wpf\\Kreuzung.Wpf.csproj|solutionrelative:kreuzung.wpf\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\Car.cs",
+              "RelativeDocumentMoniker": "Kreuzung.Wpf\\Car.cs",
+              "ToolTip": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\Car.cs",
+              "RelativeToolTip": "Kreuzung.Wpf\\Car.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:06:24.397Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crossroad.cs",
+              "DocumentMoniker": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\Crossroads\\Crossroad.cs",
+              "RelativeDocumentMoniker": "Kreuzung.Wpf\\Crossroads\\Crossroad.cs",
+              "ToolTip": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\Crossroads\\Crossroad.cs",
+              "RelativeToolTip": "Kreuzung.Wpf\\Crossroads\\Crossroad.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:06:37.412Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kreuzung.Wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Kreuzung.Wpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:04:48.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Kreuzung.Wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\MainWindow.xaml",
+              "RelativeToolTip": "Kreuzung.Wpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-11T00:30:54.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\Direction.cs",
+              "RelativeDocumentMoniker": "Kreuzung.Wpf\\Direction.cs",
+              "ToolTip": "C:\\Users\\Reini\\source\\repos\\Kreuzung\\Kreuzung.Wpf\\Direction.cs",
+              "RelativeToolTip": "Kreuzung.Wpf\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T23:11:40.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
