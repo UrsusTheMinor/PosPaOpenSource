@@ -1,0 +1,88 @@
+﻿<Window x:Class="PhilosophenProblem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dining Philosophers – Deadlock-Demo" Height="520" Width="900">
+    <Grid Margin="12">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Einstellungen -->
+        <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="8">
+            <TextBlock Text="Parameter (ms)" FontWeight="Bold" />
+            <UniformGrid Rows="4" Columns="2" Margin="0,4,0,0">
+                <TextBlock Text="Ø Denkzeit" VerticalAlignment="Center"/>
+                <TextBox x:Name="AvgThinkBox" Text="1000"/>
+                <TextBlock Text="Varianz Denken" VerticalAlignment="Center"/>
+                <TextBox x:Name="VarThinkBox" Text="200"/>
+                <TextBlock Text="Ø Esszeit" VerticalAlignment="Center"/>
+                <TextBox x:Name="AvgEatBox" Text="200"/>
+                <TextBlock Text="Varianz Essen" VerticalAlignment="Center"/>
+                <TextBox x:Name="VarEatBox" Text="40"/>
+            </UniformGrid>
+
+            <UniformGrid Rows="1" Columns="2" Margin="0,6,0,0">
+                <TextBlock Text="Aufnahmezeit Gabel"/>
+                <TextBox x:Name="PickupBox" Text="40"/>
+            </UniformGrid>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button x:Name="StartBtn" Content="Start" Width="100" Click="StartBtn_Click"/>
+                <Button x:Name="StopBtn" Content="Stopp" Width="100" Click="StopBtn_Click" IsEnabled="False"/>
+            </StackPanel>
+
+            <TextBlock Text="Hinweis: Alle Zeiten in Millisekunden. Verteilung: Ø ± Varianz, nie negativ." 
+                       TextWrapping="Wrap" Margin="0,8,0,0" Foreground="Gray"/>
+        </StackPanel>
+
+        <!-- Philosophen -->
+        <Grid Grid.Column="1" Margin="20,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Philosophen" FontWeight="Bold"/>
+
+            <Grid Grid.Row="1" Margin="0,8,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Kopfzeile -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Name" FontWeight="Bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Status" FontWeight="Bold"/>
+
+                <!-- P0 -->
+                <TextBox Grid.Row="1" Grid.Column="0" x:Name="Name0" Text="Diogenes"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="Status0" IsReadOnly="True" Background="White"/>
+
+                <!-- P1 -->
+                <TextBox Grid.Row="2" Grid.Column="0" x:Name="Name1" Text="Hypatia"/>
+                <TextBox Grid.Row="2" Grid.Column="1" x:Name="Status1" IsReadOnly="True" Background="White"/>
+
+                <!-- P2 -->
+                <TextBox Grid.Row="3" Grid.Column="0" x:Name="Name2" Text="Kant"/>
+                <TextBox Grid.Row="3" Grid.Column="1" x:Name="Status2" IsReadOnly="True" Background="White"/>
+
+                <!-- P3 -->
+                <TextBox Grid.Row="4" Grid.Column="0" x:Name="Name3" Text="Sartre"/>
+                <TextBox Grid.Row="4" Grid.Column="1" x:Name="Status3" IsReadOnly="True" Background="White"/>
+
+                <!-- P4 -->
+                <TextBox Grid.Row="5" Grid.Column="0" x:Name="Name4" Text="Arendt"/>
+                <TextBox Grid.Row="5" Grid.Column="1" x:Name="Status4" IsReadOnly="True" Background="White"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
